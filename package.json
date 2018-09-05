@@ -1,0 +1,38 @@
+{
+  "name": "gm.dv.std",
+  "version": "1.0.0",
+  "description": "gm.dv.std",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "npx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balovbohdan/gm.dv.std.git"
+  },
+  "author": "Balov Bohdan <balovbohdan@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balovbohdan/gm.dv.std/issues"
+  },
+  "homepage": "https://github.com/balovbohdan/gm.dv.std#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.0",
+    "babel-loader": "^8.0.2",
+    "classnames": "^2.2.6",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^1.0.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^0.23.0",
+    "typescript": "^3.0.3",
+    "typings": "^2.1.1",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7"
+  },
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
